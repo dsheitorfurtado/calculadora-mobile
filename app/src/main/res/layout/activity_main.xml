@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtNumero"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="460dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="345dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="118dp"
+        android:background="#E91E63"
+        android:backgroundTint="#FF5722"
+        android:rotationY="0"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="361dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="611dp"
+        android:text="TextView" />
+
+</RelativeLayout>
