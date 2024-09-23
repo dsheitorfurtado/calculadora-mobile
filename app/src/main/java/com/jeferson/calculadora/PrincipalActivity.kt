@@ -30,6 +30,7 @@ class PrincipalActivity : AppCompatActivity() {
         val btnCalcular: Button = findViewById(R.id.btnCalcular)
         btnCalcular.setOnClickListener {
             val text = edtNumero.text
+
             val duration = Toast.LENGTH_SHORT
             val toast = Toast.makeText(this, text, duration) // in Activity
             toast.show()
